@@ -1,0 +1,3 @@
+#!/usr/bin/env ruby
+require 'SCTmongo/cli'
+SCTmongo::CLI.start
