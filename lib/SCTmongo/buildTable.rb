@@ -64,6 +64,10 @@ FileUtils::mkdir_p '/Users/zhuwei/Desktop/FCA/201409/context_table'
     end
   end
 
+  m.each do |sm|
+    p sm
+  end
+  puts "test"
   m.map { |sm| sm.compact!  }
   m.each do |sm|
     p sm
